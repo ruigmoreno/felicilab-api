@@ -4,15 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Alunos extends Model
+class Turmas extends Model
 {
 
     protected $fillable = [
-        'nome',
-        'telefone',
-        'email',
-        'data_nascimento',
-        'genero'
+        'ano_execucao',
+        'nivel_educacao',
+        'nivel_serie',
+        'turno',
     ];
 
     public function AlunosTurmas()
